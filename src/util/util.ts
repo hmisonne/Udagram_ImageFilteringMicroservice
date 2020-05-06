@@ -32,3 +32,7 @@ export async function deleteLocalFiles(files:Array<string>){
         fs.unlinkSync(file);
     }
 }
+
+export function checkURL(url: string) {
+    return(url.match(/\.(jpeg|jpg|gif|png)$/) != null);
+}
