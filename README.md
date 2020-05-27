@@ -15,14 +15,11 @@ To run this project, open a new terminal within the project directory and run:
 1. Initialize a new project: `npm i`
 2. run the development server with `npm run dev`
 
-### Accomplishments
+### Key Achievements
 
 Using a starter code provided in this [repository](https://github.com/udacity/cloud-developer/tree/master/course-02/project/image-filter-starter-code), an endpoint in `./src/server.ts` was created to:
 - Download an image from a public URL, 
 - Filter the image, 
 - Return the result
-
-
-### Deployment
-
-This image-filter microservice was deployed using elastic beanstalk in AWS (`eb init` and `eb create` commands).
+- Deploy microservice to Elastic BeanStalk with `eb init` and `eb create` commands.
+![elasticBeanStalkDeployment](deployment_screenshots/elasticBeanStalkDeployment.JPG)
